@@ -1,0 +1,104 @@
+h1{
+	background: steelblue;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: normal;
+
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	border: 2px solid gray;
+	width: 360px;
+	margin: 100px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 5px black;
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+
+}
+
+body {
+	font-family: 'permanent marker';
+
+background: #4B79A1;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.fa-pencil-square-o {
+	float: right;
+}
+
+li {
+	background: white;
+	color: gray;
+	height: 50px;
+	line-height: 50px
+
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+	height: 50px;
+	line-height: 50px;
+}
+
+input {
+	font-size: 20px;
+	color: steelblue;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box; 
+	border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+	background: white;
+	border: 3px solid steelblue;
+	outline: none;
+}
+
+span {
+	background: #c10000;
+	height: 50px;
+	margin-right: 25px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: .4s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
